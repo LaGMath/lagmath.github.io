@@ -46,26 +46,22 @@
   
   <h2>Who should join Math Team?</h2>
   <p>Anyone with a positive attitude and an interest and aptitude for math.</p>
-    
-  <h2>If you are interested, please fill out this form to let us know!</h2>
-    <form method="post" action="#" name="my-form">
-      <label>Name</label> <br> <br>
-      <input type="text" 
-             name="first-name" 
-             id="first-name" 
-             placeholder="Full name"/> <br> <br>
-      <label>Email</label> <br> <br>
-      <input type="text"
-             name="email"
-             id="email"
-             placeholder="Email address"/> <br> <br>
-      <input type="button"
-             name="submit"
-             id="submit-btn"
-             value="Submit"/>
-    </form>
-    
+  
   </div>
+    
+  <h2>If you are interested, please fill out this form to let us know!</h>
+  <form method="post" action="send_mail.php">
+  <p>
+    <label>First Name
+    <input type="text" name="first_name" required>
+    </label> 
+  </p>
+  <p>
+    <label>Email 
+    <input type="email" name="email_address">
+    </label>
+  </p>
+ 
 </body>
 
 </html>
